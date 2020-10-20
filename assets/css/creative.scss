@@ -1,5 +1,9 @@
 ---
 ---
+$darkest-blue: #060723 ;
+$main-blue: #151a46;
+$electric-blue: #2938ee;
+$menu-blue: #0a0b39;
 
 @charset "UTF-8";
 /*!
@@ -6070,7 +6074,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: $main-blue !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6089,18 +6093,18 @@ button.bg-secondary:focus {
   background-color: #545b62 !important;
 }
 
-.bg-success {
-  background-color: #28a745 !important;
+.bg-electric {
+  background-color: $electric-blue !important;
 }
 
-a.bg-success:hover, a.bg-success:focus,
-button.bg-success:hover,
-button.bg-success:focus {
+a.bg-electric:hover, a.bg-electric:focus,
+button.bg-electric:hover,
+button.bg-electric:focus {
   background-color: #1e7e34 !important;
 }
 
-.bg-info {
-  background-color: #17a2b8 !important;
+.bg-dark {
+  background-color: $darkest-blue !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -6139,15 +6143,6 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
-  background-color: #343a40 !important;
-}
-
-a.bg-dark:hover, a.bg-dark:focus,
-button.bg-dark:hover,
-button.bg-dark:focus {
-  background-color: #1d2124 !important;
-}
 
 .bg-white {
   background-color: #fff !important;
@@ -6611,6 +6606,10 @@ button.bg-dark:focus {
 
 .justify-content-around {
   justify-content: space-around !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
 }
 
 .align-items-start {
