@@ -1,50 +1,66 @@
 ---
 layout: home
+title: Consulting Recherches Privées
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
-  text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+  title: CONSULTING RECHERCHES PRIVÉES
+  text:
   action: # action button is optional
-    label: Find Out More
-    url: '#about'
+    label: Nous contacter
+    url: '#contact'
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
+  - type: prestations.html
+    section_id: prestations
+    background_style: bg-dark
+    title: Nos prestations
+    categories:
+      - title: Enquêtes assurances
+        subtitle: Certification n°264
+        icon: fa-shield-alt
+        background_style: bg-electric
+        logo: afnor.png
+        prestations:
+          - name: Assurance de dommages aux biens  perte, bris, vol, incendie, tempête
+          - name: Assurance de responsabilité civile ou pro
+      - title: Prestations entreprises
+        icon: fa-building
+        background_style: bg-primary
+        logo: satisfaction.png
+        prestations:
+          - name: Enquête de pré-embauche
+          - name: Malveillances internes, externes
+          - name: Fuite d’informations
+          - name: Contrôle des arrêts maladie abusifs
+          - name: Contrôle des arrêts maladie abusifs
+          - name: Recherche de débiteur
+          - name: Lutte contre la concurrence déloyale
+          - name: Lutte contre la contrefaçon
 
-  - type: services.html
-    section_id: services
-    #background_style: bg-info
-    title: At Your Service
-    services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+      - title: Intelligence économique
+        icon: fa-search-dollar
+        background_style: bg-primary
+        logo: EEIE.svg
+        prestations:
+          - name: Communication de crise
+          - name: Management des risques
+          - name: Gestion de crise
+          - name: Sûreté des entreprises
+          - name: Lobbying et influence
+          - name: Recherche et sourcing d’informations stratégique
+          - name: Travail clandestin
+          - name: Dissimulation d’activité, d’emploi de salariés
+          - name: Exercice illégal d’une activité règlementée
+
+      - title: Prestations pour particuliers
+        icon: fa-user
+        background_style: bg-electric
+        logo: satisfaction.png
+        prestations:
+          - name: Recherche de personne de votre famille
+          - name: Recherche d’une personne disparue
+          - name: Recherche d’un débiteur (loyers impayés)
+          - name: Recherche d’un héritier
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
