@@ -17,14 +17,16 @@ sections:
     categories:
       - title: Enquêtes assurances
         subtitle: Certification n°264
-        icon: fa-gem text-info
+        icon: fa-shield-alt
         background_style: bg-electric
+        logo: afnor.png
         prestations:
           - name: Assurance de dommages aux biens  perte, bris, vol, incendie, tempête
           - name: Assurance de responsabilité civile ou pro
       - title: Prestations entreprises
-        icon: fa-paper-plane
+        icon: fa-building
         background_style: bg-primary
+        logo: satisfaction.png
         prestations:
           - name: Enquête de pré-embauche
           - name: Malveillances internes, externes
@@ -36,8 +38,9 @@ sections:
           - name: Lutte contre la contrefaçon
 
       - title: Intelligence économique
-        icon: fa-laptop-code
+        icon: fa-search-dollar
         background_style: bg-primary
+        logo: EEIE.svg
         prestations:
           - name: Communication de crise
           - name: Management des risques
@@ -50,8 +53,9 @@ sections:
           - name: Exercice illégal d’une activité règlementée
 
       - title: Prestations pour particuliers
-        icon: fa-heart
+        icon: fa-user
         background_style: bg-electric
+        logo: satisfaction.png
         prestations:
           - name: Recherche de personne de votre famille
           - name: Recherche d’une personne disparue
