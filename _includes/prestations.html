@@ -15,7 +15,7 @@
 
       {% for categorie in section.categories %}
       <div class="col-lg-5 col-md-12 mt-5 {{ categorie.background_style }}">
-        <div class="p-4">
+        <div class="p-5">
           <div class="mb-3 text-center">
             <i class="fas fa-4x {{ categorie.icon }} text-white mb-4"></i>
 
@@ -41,6 +41,12 @@
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="mt-5 text-center">
+      <h4 class="text-white mb-4">Pour tout autre demande</h4>
+      {% if page.header.action %}
+      <a class="btn btn-secondary js-scroll-trigger" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
+      {% endif %}
     </div>
   </div>
 </section>

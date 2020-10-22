@@ -12,8 +12,9 @@ header:
 sections:
   - type: prestations.html
     section_id: prestations
-    background_style: bg-dark
+    background_style: bg-secondary
     title: Nos prestations
+    action: "Nous contacter"
     categories:
       - title: Enquêtes assurances
         subtitle: Certification n°264
@@ -65,7 +66,7 @@ sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
-    #background_style: bg-dark
+    #background_style: bg-secondary
     projects:
       - title: Project 1
         text: This is a very short project description.
@@ -136,7 +137,7 @@ sections:
   - type: timeline.html
     section_id: timeline
     title: Major Achievements!
-    background_style: bg-dark text-primary
+    background_style: bg-secondary text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
