@@ -1,0 +1,38 @@
+.bg-primary {
+  background-color: $main-blue !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  opacity: 0.8;
+}
+
+.bg-secondary {
+  background-color: $darkest-blue !important;
+}
+
+a.bg-secondary:hover, a.bg-secondary:focus,
+button.bg-secondary:hover,
+button.bg-secondary:focus {
+  opacity: 0.8;
+}
+
+.bg-electric {
+  background-color: $electric-blue !important;
+}
+
+a.bg-electric:hover, a.bg-electric:focus,
+button.bg-electric:hover,
+button.bg-electric:focus {
+  opacity: 0.8;
+}
+
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}

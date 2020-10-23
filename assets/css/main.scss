@@ -3,10 +3,21 @@
 
 @charset "utf-8";
 
+$darkest-blue: #060723 ;
+$main-blue: #151a46;
+$electric-blue: #2938ee;
+$menu-blue: #0a0b39;
+$roboto:'Roboto', sans-serif;
+$heebo: 'Heebo', sans-serif;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "member-box",
         "timeline",
         "page",
-        "icons"
+        "icons",
+        "buttons",
+        "backgrounds",
+        "hero_banner",
+        "navbar"
 ;
