@@ -8949,6 +8949,16 @@ hr.light {
   border-color: #fff;
 }
 
+hr.fat {
+  border-top-width: 4px;
+}
+
+hr.thin {
+  height: 1px;
+  width: 60%;
+  background-color: rgba(10, 11, 57, 0.53);
+}
+
 .btn {
   font-family: $heebo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

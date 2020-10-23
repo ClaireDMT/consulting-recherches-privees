@@ -72,10 +72,32 @@ sections:
     text: >+
       CRP est une agence certifiée ALFA / AFNOR d'enquêteur assurance spécialisée en lutte contre la fraude, en recherches d'informations, en veille, en conseils, en audits et en enquêtes générales (administration de la preuve) qui peut vous proposer des prestations personnalisées (presque) dans tous les domaines.
 
-  - type: contact.html
-    section_id: contacts
-    title: Let's Get In Touch!
-    text: >-
+  - type: agrements.html
+    section_id: agrements
+    title: Les agréments
+    background_style: bg-white
+    left_section:
+      background_style: bg-primary
+      agrements:
+        - name: Agrément dirigeant
+          number: AGD-057-2024-01-23-20190307140
+        - name: Carte professionnelle
+          number: CAR-057-2022-09-27-20170307140
+        - name: Autorisation d’exercer
+          number: AUT-057-2113-07-23-20140393218
+      informations:
+        - name: SIREN
+          text: 530 433 424
+        - name: Siège social
+          text: Virginie du Verger 57070 METZ
+        - name: Téléphone
+          text: + 33 7 61 41 02 13
+        - name: E-mail
+          text: consultingrecherchesprivees@yahoo.fr
+    right_section:
+      background_style: bg-white
+      logo_cnaps: cnaps.png
+      logo_alfa: alfa.png
 
   - type: contact.html
     section_id: contacts
