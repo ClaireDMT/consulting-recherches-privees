@@ -1,0 +1,31 @@
+<section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
+  <div class="container">
+    <h2 class="text-center text-white mt-0">{{ section.title | newline_to_br}}</h2>
+    <hr class="divider my-4">
+    <div class="d-grid justify-content-lg-between">
+      <div class="p-4 bg-white">
+        <h3 class="mb-4 text-success">{{ section.experiences.title }}</h3>
+        {% for experience in section.experiences.list %}
+          <div class="text-left">
+            {{ experience.text | markdownify }}
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="p-4 bg-white">
+        <h3 class="mb-4 text-success">{{ section.formations.title }}</h3>
+        {% for formation in section.formations.list %}
+        <div class="text-left">
+          {{ formation.text | markdownify }}
+        </div>
+        {% endfor %}
+        <div class="text-right">
+          <img class="w-25" src="assets/img//{{ section.formations.logo }}" alt="">
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>

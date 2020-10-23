@@ -66,9 +66,7 @@ sections:
   - type: paragraph.html
     section_id: agence
     background_style: bg-primary
-    title: >+
-      L'agence
-      Consulting Recherches Privées
+    title: "L'agence \n Consulting Recherches Privées"
     text: >+
       CRP est une agence certifiée ALFA / AFNOR d'enquêteur assurance spécialisée en lutte contre la fraude, en recherches d'informations, en veille, en conseils, en audits et en enquêtes générales (administration de la preuve) qui peut vous proposer des prestations personnalisées (presque) dans tous les domaines.
 
@@ -98,6 +96,31 @@ sections:
       background_style: bg-white
       logo_cnaps: cnaps.png
       logo_alfa: alfa.png
+
+  - type: ceo.html
+    section_id: ceo
+    title: "Le CEO \n de Consulting Recherches Privées"
+    background_style: bg-primary
+    experiences:
+      title: Expériences professionnelles
+      list:
+        - text: Dirigeant de CRP depuis le 01/02/2011
+        - text: 8 années au Luxembourg
+        - text: Directeur d’un BU de 42 M€ (Luxembourg)
+        - text: 1 an responsable d’unité de gestion assurance chômage
+        - text: 20 années en unité spéciale
+        - text: 13 missions à l’étranger (65 mois)
+    formations:
+      title: Formations
+      logo: chef.png
+      list:
+        - text: Consultant en Intelligence Economique (Niv I)
+        - text: Maitrise en management opérationnelle (Niv II)
+        - text: Maitrise management et gestion de l’information (Niv III)
+        - text: Titre d’ARP (Niv III)
+    qualifications:
+      title: Qualifications (non reconduites)
+      text: Directeur de mise en œuvre d’explosifs
 
   - type: contact.html
     section_id: contacts

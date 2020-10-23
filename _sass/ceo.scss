@@ -1,0 +1,12 @@
+#ceo {
+  .d-grid {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template: 1fr / 1fr 1fr;
+  }
+
+  .bolder-text {
+    line-height: 26px;
+    font-weight: 500;
+  }
+}
