@@ -73,6 +73,8 @@ sections:
   - type: agrements.html
     section_id: agrements
     title: Les agréments
+    mention: >+
+      Article L612-14 : L’autorisation d’exercice ne confère aucune prérogative de puissance publique à l’entreprise ou aux personnes qui en bénéficient.
     background_style: bg-white
     left_section:
       background_style: bg-primary
@@ -122,25 +124,28 @@ sections:
       title: Qualifications (non reconduites)
       text: Directeur de mise en œuvre d’explosifs
 
+  - type: zone_interventions.html
+    section_id: zone_interventions
+    background_style: bg-secondary
+    title: Notre zone d'intervention
+    text: >-
+      Nous intervenons sur Metz et sa région, ainsi qu'au Luxembourg.
+
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
-    text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
-    actions:
-    - title: +1 (202) 555-014
-      icon: fa-phone
-    - title: E-Mail
-      icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
-    - title: Facebook
-      icon: fa-facebook
-      icon_type: fab
-      url: '#'
+    background_style: bg-primary
+    title: Contact
+    subtitle: Contactez nous pour toute demande d'intervention.
+    infos:
+    - title: Siège Social
+      detail: 37 rue Virginie du Verger 57070 METZ
+    - title: Agence Certifiée
+      detail: Certifiée ALFA / AFNOR d'enquêteur assurance
+    - title: Contacts
+      detail:
+        + 33 7 61 41 02 13
+        consultingrecherchesprivees@yahoo.fr
+    form:
+      background_style: bg-white
 
 ---

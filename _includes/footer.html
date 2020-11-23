@@ -1,14 +1,37 @@
 <!-- no footer at all! -->
-<footer class="bg-light py-5">
+<footer class="bg-electric py-5">
   <div class="container">
-    <div class="small text-center text-muted">
-      {{ site.data.footer.copyright }}
-      &nbsp;
-      {% for link in site.data.footer.links %}
-          <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
-          {% if new_window_is_not_empty %}target="_blank" rel="noopener"
-          {% endif %}>{{ link.text }}</a>
-      {% endfor %} 
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-4">
+        <h2 class="mb-0">{{site.title}}</h2>
+      </div>
+      <div class="col-3">
+        {% for link in site.data.footer.links.column_left %}
+            <a href="{{ link.url }}"
+               class="d-block mb-2"
+               {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
+               {% if new_window_is_not_empty %}target="_blank" rel="noopener"
+               {% endif %}>
+              {{ link.text }}
+            </a>
+        {% endfor %}
+      </div>
+      <div class="col-2">
+        {% for link in site.data.footer.links.column_right %}
+        <a href="{{ link.url }}"
+           class="d-block mb-2"
+           {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
+           {% if new_window_is_not_empty %}target="_blank" rel="noopener" {% endif %}>
+           {{ link.text }}
+        </a>
+        {% endfor %}
+      </div>
+      <div class="col-3 text-right">
+        <img src="assets/img/{{ site.data.footer.logo }}"
+             alt="logo CNAPS et numéro d'autorisation"
+             class="w-75">
+      </div>
+    </div>
     </div>
   </div>
 </footer>

@@ -2,6 +2,7 @@
   <div class="container">
     <h2 class="text-center text-white mt-0">{{ section.title | newline_to_br}}</h2>
     <hr class="divider my-4">
+
     <div class="d-grid justify-content-lg-between">
       <div class="p-4 bg-white">
         <h3 class="mb-4 text-success">{{ section.experiences.title }}</h3>
@@ -11,7 +12,6 @@
           </div>
         {% endfor %}
       </div>
-
       <div class="p-4 bg-white">
         <h3 class="mb-4 text-success">{{ section.formations.title }}</h3>
         {% for formation in section.formations.list %}
@@ -23,8 +23,14 @@
           <img class="w-25" src="assets/img//{{ section.formations.logo }}" alt="">
         </div>
       </div>
-
-
+    </div>
+      <div class="p-4 bg-white my-4">
+        <h3 class="mb-4 text-success">{{ section.qualifications.title }}</h3>
+          <div class="text-left">
+            {{ section.qualifications.text | markdownify }}
+          </div>
+      </div>
+    <div>
 
     </div>
   </div>
