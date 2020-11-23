@@ -1,20 +1,21 @@
 <section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="mt-0">{{ section.title }}</h2>
-        <hr class="divider my-4">
-        <p class="text-muted mb-5">{{ section.text }}</p>
+    <div class="d-grid">
+      <div class="p-4 text-white contact-details">
+        <h3 class="text-white">{{ section.title }}</h3>
+        <hr class="divider white-left my-4">
+        <p class="text-white">{{ section.subtitle }}</p>
+        {% for info in section.infos %}
+          <div class="text-white mb-4">
+            <p class="mb-0"><strong>{{ info.title }}</strong></p>
+            <p>{{ info.detail }}</p>
+          </div>
+        {% endfor %}
       </div>
-    </div>
-    <div class="row justify-content-center">
-      {% for action in section.actions %}
-      {% assign fa = action.icon_type | default: "fas" %}
-      <div class="col ml-auto text-center">
-        <i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i>
-        <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
+
+      <div class="form p-5 {{ section.form.background_style }}">
+        {% include form.html %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </section>

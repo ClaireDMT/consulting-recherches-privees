@@ -1,0 +1,12 @@
+#contacts {
+  .d-grid {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template: 1fr / 50% 50%;
+  }
+
+  .form {
+    box-shadow: 0 4px 21px 0 rgba(79,80,90,.12);
+  }
+
+}

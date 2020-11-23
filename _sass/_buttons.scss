@@ -133,3 +133,28 @@ fieldset:disabled a.btn {
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
+
+
+//  BTN SUCCESS => ELECTRIC BLUE
+
+.btn-success {
+  color: #fff;
+  background-color:$electric-blue;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: $darkest-blue;
+}
+.btn-success:focus, .btn-success.focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem $darkest-blue;
+}
+.btn-success.disabled, .btn-success:disabled {
+  color: #fff;
+}
+.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+  color: #fff;
+}
+.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $darkest-blue;
+}

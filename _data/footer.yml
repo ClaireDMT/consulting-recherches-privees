@@ -1,5 +1,25 @@
-copyright: '&copy; Start Bootstrap'
+logo: cnaps.png
 links:
-  - text: Creative
-    url: 'https://startbootstrap.com/themes/creative/'
-    new_window: true
+  column_left:
+    - text: Nos prestations
+      url: /#prestations
+      new_window: true
+    - text: Les zones d'interventions
+      url: /#zone_interventions
+      new_window: false
+    - text: Nous contacter
+      url: /#contact
+      new_window: false
+  column_right:
+    - text: L'agence
+      url: /#agence
+      new_window: false
+    - text: Le CEO
+      url: /#ceo
+      new_window: false
+    - text: Les agréments
+      url: /#agrements
+      new_window: false
+    - text: Les mentions légales
+      url:
+      new_window: true
