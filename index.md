@@ -17,7 +17,6 @@ sections:
     action: "Nous contacter"
     categories:
       - title: Enquêtes assurances
-        subtitle: Certification n°264
         icon: fa-shield-alt
         background_style: bg-electric
         logo: afnor.png
