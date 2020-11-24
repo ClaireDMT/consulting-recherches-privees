@@ -1,14 +1,18 @@
 # Site settings
 title: Consulting Recherches Privées
 logo: logo_aigle.png
+logo2: logo2.png
+background: aigle.jpg
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/crp/" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2019 - Start Bootstrap
 lang: fr
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
+assets:
+  cache: false
 markdown: kramdown
 sass:
   indentWidth: 4

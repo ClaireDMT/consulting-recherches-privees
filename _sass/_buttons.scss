@@ -1,3 +1,7 @@
+// .bg-eagle {
+//     background-image: url("../img/aigle.jpg");
+//     background-size: cover;
+// }
 
 .btn {
   display: inline-block;
@@ -45,11 +49,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color:$main-blue;
+  background-color: transparent;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: $electric-blue;
+  background-color: #3B6A84;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
