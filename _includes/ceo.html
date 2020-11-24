@@ -1,10 +1,10 @@
 <section id="{{ section.section_id }}" class="page-section">
-  <div class="container {{ section.background_style }}">
+  <div class="container {{ section.background_style }} p-5 rounded">
     <h2 class="text-center text-white mt-0">{{ section.title | newline_to_br}}</h2>
     <hr class="divider my-4">
 
     <div class="d-grid justify-content-lg-between">
-      <div class="p-4 bg-white">
+      <div class="p-4 bg-white rounded">
         <h3 class="mb-4 text-success">{{ section.experiences.title }}</h3>
         {% for experience in section.experiences.list %}
           <div class="text-left">
@@ -12,7 +12,7 @@
           </div>
         {% endfor %}
       </div>
-      <div class="p-4 bg-white">
+      <div class="p-4 bg-white rounded">
         <h3 class="mb-4 text-success">{{ section.formations.title }}</h3>
         {% for formation in section.formations.list %}
         <div class="text-left">
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-      <div class="p-4 bg-white my-4">
+      <div class="p-4 bg-white my-4 rounded">
         <h3 class="mb-4 text-success">{{ section.qualifications.title }}</h3>
           <div class="text-left">
             {{ section.qualifications.text | markdownify }}

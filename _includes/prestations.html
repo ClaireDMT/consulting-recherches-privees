@@ -1,6 +1,6 @@
 <section class="page-section"
          id="{{ section.section_id }}">
-  <div class="container {{ section.background_style }}">
+  <div class="container {{ section.background_style }} p-5 rounded">
     <h2 class="text-center text-white mt-0">{{ section.title }}</h2>
     <hr class="divider my-4">
     <div class="row justify-content-evenly">
@@ -15,39 +15,35 @@
       {% assign colsM = colsL | times: 2 %} -->
 
       {% for categorie in section.categories %}
-      <div class="col-lg-5 col-md-12 mt-5 {{ categorie.background_style }}">
+      <div class="col-lg-5 col-md-12 mt-5 mb-4 {{ categorie.background_style }} rounded">
         <div class="p-5">
           <div class="mb-3 text-center">
             <i class="fas fa-4x {{ categorie.icon }} text-white mb-4"></i>
 
             {% if categorie.background_style == 'bg-electric' %}
-              {% assign textstyle = "text-primary" %}
+              {% assign textstyle = "text-darkest" %}
             {% else %}
-              {% assign textstyle = "text-success" %}
+              {% assign textstyle = "text-darkest" %}
 
             {% endif %}
-            <h3 class="mb-2 {{textstyle}}">{{ categorie.title }}</h3>
-            <h5 class="text-white">{{ categorie.subtitle }}</h4>
+            <h3 class="mb-3 {{textstyle}}">{{ categorie.title }}</h3>
           </div>
 
           {% for prestation in categorie.prestations %}
-          <div class="text-white mb-0 text-left">
-            {{ prestation.name | markdownify }}
+            <div class="text-white mb-0 text-left">
+              <p>- {{ prestation.name }}</p>
+            </div>
+            {% endfor %}
+            <p class="text-white mb-0 text-left">- Autre demande</p>
           </div>
-          {% endfor %}
-
-        </div>
-        <div>
+          <div>
+            {% if page.header.action %}
+              <a class="btn btn-primary js-scroll-trigger" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
+            {% endif %}
           <img class="logo-prestations" src="assets/img/prestations/{{ categorie.logo }}" alt="">
         </div>
       </div>
       {% endfor %}
-    </div>
-    <div class="mt-5 text-center">
-      <h4 class="text-white mb-4">Pour tout autre demande</h4>
-      {% if page.header.action %}
-      <a class="btn btn-secondary js-scroll-trigger" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
-      {% endif %}
     </div>
   </div>
 </section>

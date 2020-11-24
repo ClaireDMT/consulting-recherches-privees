@@ -11,8 +11,6 @@ lang: fr
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
-assets:
-  cache: false
 markdown: kramdown
 sass:
   indentWidth: 4

@@ -1,10 +1,9 @@
 ---
 ---
-$darkest-blue: #060723 ;
-$main-blue: #151a46;
-$electric-blue: #2938ee;
-$sky-bue: #3FA2D9;
-$menu-blue: #3B6A84;
+$darkest-blue: #0F2B4D;
+$dark-blue: #30609A;
+$electric-blue:#5D9DEA;
+$menu-blue: #4F81BD;
 $roboto:'Roboto', sans-serif;
 $heebo: 'Heebo', sans-serif;
 
@@ -389,7 +388,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
-  color: $sky-bue;
+  color: $electric-blue;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -8740,7 +8739,7 @@ a.close.disabled {
 }
 
 .text-primary {
-  color: $main-blue !important;
+  color: $dark-blue !important;
   opacity: 0.8
 }
 
@@ -8759,7 +8758,17 @@ a.text-secondary:hover, a.text-secondary:focus {
 .text-red {
   color: #9a0202;
 }
+.text-darkest {
+  color: $darkest-blue
+}
 
+.text-menu {
+  color: $menu-blue;
+}
+
+.text-dark {
+  color: $dark-blue
+}
 .text-success {
   color: $electric-blue !important;
 }
@@ -8954,7 +8963,7 @@ html {
 }
 
 hr.divider {
-  max-width: 3.25rem;
+  max-width: 6rem;
   border-width: 0.2rem;
   border-color: $electric-blue;
 }
