@@ -33,7 +33,9 @@
 
 <body id="page-top" class="{% if page.layout == site.landing_template %}landing {% endif %}">
   {% include nav.html    section=section site=site page=page %}
-  {{ content }}
+  <div class="parallax-container">
+      {{ content }}
+  </div>
   {% include footer.html section=section site=site page=page %}
 
   <!-- Bootstrap core JS-->

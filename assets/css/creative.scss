@@ -3,7 +3,7 @@
 $darkest-blue: #060723 ;
 $main-blue: #151a46;
 $electric-blue: #2938ee;
-$menu-blue: #0a0b39;
+$menu-blue: #3B6A84;
 $roboto:'Roboto', sans-serif;
 $heebo: 'Heebo', sans-serif;
 
@@ -571,7 +571,7 @@ pre code {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -594,12 +594,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 }
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
-  width: 100%;
+  width: 80%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -623,7 +623,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 }
 .row {
