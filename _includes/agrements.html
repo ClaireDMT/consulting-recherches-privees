@@ -1,9 +1,9 @@
 <section id="{{ section.section_id }}" class="page-section">
-  <div class="container {{ section.background_style }}">
+  <div class="container {{ section.background_style }} p-5 rounded">
     <h2 class="text-center mt-0">{{ section.title }}</h2>
     <hr class="divider my-4">
     <div class="d-grid">
-      <div class="left_section p-4 {{ section.left_section.background_style }}">
+      <div class="left_section p-4 {{ section.left_section.background_style }} rounded">
         <div class="text-white m-2">
           {% for agrement in section.left_section.agrements %}
             <div class="">
@@ -23,8 +23,8 @@
       </div>
 
 
-      <div class="right_section text-center p-4 {{ section.right_section.background_style }}">
-        <img class="w-90" src="assets/img/{{section.right_section.logo_cnaps}}" alt="">
+      <div class="right_section text-center p-4 {{ section.right_section.background_style }} rounded">
+        <img class="w-75" src="assets/img/{{section.right_section.logo_cnaps}}" alt="">
         <img class="w-100 mt-4" src="assets/img/{{section.right_section.logo_alfa}}" alt="">
       </div>
     </div>

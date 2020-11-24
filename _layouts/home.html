@@ -3,19 +3,17 @@ layout: base
 ---
 
 <header class="masthead">
-  <div class="container h-100">
-    <div class="row col-lg-6 col-md-10 h-100 align-items-center">
-      <div class="align-self-end">
-        <h1 class="text-uppercase">
-          <span class="text-red">C</span>ONSULTING <span class="text-red">R</span>ECHERCHES <span class="text-red">P</span>RIVÉES
-        </h1>
-      </div>
-      <div class="col-lg-8 align-self-baseline">
-        <p class="text-white-75 font-weight-light mb-5">{{ page.header.text }}</p>
-        {% if page.header.action %}
-        <a class="btn btn-primary js-scroll-trigger" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
-        {% endif %}
-      </div>
+  <div class="container h-100 d-flex align-items-center">
+    <div class="col-lg-6 col-md-10">
+      <h1 class="text-uppercase">
+        <span class="text-red">C</span>ONSULTING <span class="text-red">R</span>ECHERCHES <span class="text-red">P</span>RIVÉES
+      </h1>
+    <div class="col-lg-8 mt-5">
+      <p class="text-white-75 font-weight-light">{{ page.header.text }}</p>
+      {% if page.header.action %}
+      <a class="btn btn-primary js-scroll-trigger" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
+      {% endif %}
+    </div>
     </div>
   </div>
 </header>

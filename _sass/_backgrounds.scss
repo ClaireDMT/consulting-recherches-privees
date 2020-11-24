@@ -1,5 +1,5 @@
 .bg-primary {
-  background-color: $main-blue !important;
+  background-color: $menu-blue !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9,7 +9,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: $darkest-blue !important;
+  background-color: $dark-blue !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -35,4 +35,8 @@ button.bg-electric:focus {
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+.bg-dark {
+  background-color: $darkest-blue;
 }

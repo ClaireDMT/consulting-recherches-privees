@@ -1,5 +1,5 @@
 <section id="{{ section.section_id }}" class="page-section">
-  <div class="container {{ section.background_style }}">
+  <div class="container {{ section.background_style }} p-5 rounded">
     <div class="d-grid">
       <div class="p-4 text-white contact-details">
         <h3 class="text-white">{{ section.title }}</h3>
@@ -13,7 +13,7 @@
         {% endfor %}
       </div>
 
-      <div class="form p-5 {{ section.form.background_style }}">
+      <div class="form rounded p-5 {{ section.form.background_style }}">
         {% include form.html %}
       </div>
     </div>

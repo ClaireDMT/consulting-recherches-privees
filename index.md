@@ -65,7 +65,7 @@ sections:
 
   - type: paragraph.html
     section_id: agence
-    background_style: bg-primary
+    background_style: bg-secondary
     title: "L'agence \n Consulting Recherches Privées"
     text: >+
       CRP est une agence certifiée ALFA / AFNOR d'enquêteur assurance spécialisée en lutte contre la fraude, en recherches d'informations, en veille, en conseils, en audits et en enquêtes générales (administration de la preuve) qui peut vous proposer des prestations personnalisées (presque) dans tous les domaines.
@@ -77,7 +77,7 @@ sections:
       Article L612-14 : L’autorisation d’exercice ne confère aucune prérogative de puissance publique à l’entreprise ou aux personnes qui en bénéficient.
     background_style: bg-white
     left_section:
-      background_style: bg-primary
+      background_style: bg-electric
       agrements:
         - name: Agrément dirigeant
           number: AGD-057-2024-01-23-20190307140
@@ -102,7 +102,7 @@ sections:
   - type: ceo.html
     section_id: ceo
     title: "Le CEO \n de Consulting Recherches Privées"
-    background_style: bg-primary
+    background_style: bg-secondary
     experiences:
       title: Expériences professionnelles
       list:
@@ -126,14 +126,15 @@ sections:
 
   - type: zone_interventions.html
     section_id: zone_interventions
-    background_style: bg-secondary
+    background_style: bg-dark
+    map: map.png
     title: Notre zone d'intervention
     text: >-
       Nous intervenons sur Metz et sa région, ainsi qu'au Luxembourg.
 
   - type: contact.html
     section_id: contacts
-    background_style: bg-primary
+    background_style: bg-electric
     title: Contact
     subtitle: Contactez nous pour toute demande d'intervention.
     infos:
